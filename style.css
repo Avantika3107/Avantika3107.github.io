@@ -1,9 +1,9 @@
-
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
+  font-style: italic
 }
 body{
   height: 100vh;
@@ -11,17 +11,19 @@ body{
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background: linear-gradient(135deg, #136296, #b469bc);
+  background: linear-gradient(135deg, #60f07d, #2b9564);
 }
+
+
 
 
 .container{
   max-width: 700px;
   width: 100%;
-  background-color: rgb(74, 21, 171);
+  background-color: rgb(107, 146, 9);
   padding: 25px 30px;
   border-radius: 5px;
-  box-shadow: 0 5px 10px rgba(161, 11, 11, 0.179);
+  box-shadow: 0 5px 10px rgba(180, 71, 71, 0.179);
 }
 .container .title{
   font-size: 25px;
@@ -36,7 +38,7 @@ body{
   height: 3px;
   width: 30px;
   border-radius: 5px;
-  background: linear-gradient(135deg, #348ac4, #ad1be7);
+  background: linear-gradient(135deg, #5fe65a, #ad1be7);
 }
 .content form .user-details{
   display: flex;
@@ -116,11 +118,11 @@ form .input-box span.details{
    letter-spacing: 1px;
    cursor: pointer;
    transition: all 0.3s ease;
-   background: linear-gradient(135deg, #71b7e6, #9b59b6);
+   background: linear-gradient(135deg, #33bd15, #6a118d);
  }
  form .button input:hover{
   /* transform: scale(0.99); */
-  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+  background: linear-gradient(-135deg, #7fc5f3, #caa2d9);
   }
  @media(max-width: 584px){
  .container{
@@ -146,3 +148,5 @@ form .user-details .input-box{
     flex-direction: column;
   }
 }
+
+
